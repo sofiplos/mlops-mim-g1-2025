@@ -43,13 +43,17 @@ Estructura del repositorio
 --------------------------
 App/
 - main.py                    -> API FastAPI
-- pipeline_recommendations.py -> DAG de Airflow
-- pipeline_recommendations_security.py -> DAG de Airflow con mejoras de seguridad
+- nano README.md
 - requirements.txt
 - Dockerfile
 
-Bronze/
-Silver/
+DAG/
+- nano README.md- pipeline_recommendations.py -> DAG de Airflow
+- pipeline_recommendations_security.py -> DAG de Airflow con mejoras de seguridad
+
+Ejemplos S3/
+- Bronze/
+- Silver/
 
 .gitignore
 README.md
